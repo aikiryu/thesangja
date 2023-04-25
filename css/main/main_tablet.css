@@ -1,0 +1,9 @@
+@media all and (min-width:768px){
+
+    .mainSlide .main3{
+        background-image: url(../../images/main/main-fac.jpg);
+        background-position: right -450px top;
+    }
+
+
+}/*768*/

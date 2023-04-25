@@ -1,0 +1,170 @@
+#wrap{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+figure{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.mainSlide{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 30vh;
+
+}
+
+.mainSlide .slide{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+
+}
+
+.mainSlide .main1{
+    background-image: url(../../images/main/main-first.jpg);
+
+}
+.mainSlide .main2{
+    background-image: url(../../images/main/main-about.jpg);
+}
+.mainSlide .main3{
+    background-image: url(../../images/main/main-fac.jpg);
+    
+}
+
+.mainSlide .main4{
+    background-image: url(../../images/main/main-pack.jpg);
+    background-position: center bottom;
+
+}
+.mainSlide .main5{
+    background-image: url(../../images/main/main-box.jpg);
+    background-position: left bottom;
+
+}
+.mainSlide .main6{
+    background-image: url(../../images/main/main-contact.jpg);
+}
+.mainSlide .main7{
+    background-image: url(../../images/main/main-location.jpg);
+    background-position: left bottom;
+
+}
+
+figure .txtBox{
+ 
+}   
+
+figure .txtBox h1{
+    border:5px solid #fff;
+    padding:3vw 4vw;
+    font-size: 6vw;
+    font-weight: 900;
+    color: #fff;
+    position: relative;
+    z-index: 20;
+}
+
+figure .txtBox .time{
+    color: #fff;
+    margin-top: 15px;
+    font-weight: 300;
+    position: relative;
+    z-index: 20;
+}
+figcaption{
+    display: none;
+}
+nav{
+    flex: 7;
+    background-color: #102d51;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 40px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+nav ul{
+    position: relative;
+    z-index: 4;
+}
+
+nav ul li{
+    padding-bottom: 20px;
+}
+
+nav ul span{
+    display: block;
+}
+
+nav ul span.ko{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+nav ul span.en{
+    font-size: 12px;
+}
+nav h1{
+    display: none;
+}
+
+address{
+    margin-top: auto;
+    padding-bottom: 20px;
+    font-style: normal;
+    font-size: 14px;
+    color:rgba(255,255,255,0.6);
+    position: relative;
+    z-index: 4;
+}
+
+.blink{
+    animation:blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.grdObj{
+    position: absolute;
+    bottom: -50%;
+    width: 600px;
+    height: 600px;
+    left: -50%;
+    margin-bottom: -100px;
+    background-image: radial-gradient(300px 300px,#60bcd1, transparent);
+    animation: grd 7s infinite alternate;
+}
+
+@keyframes grd{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.4);
+    }
+}

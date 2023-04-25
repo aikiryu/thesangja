@@ -1,0 +1,31 @@
+@media all and (min-width:1024px){
+
+   #about .s1:after{
+        content: none;
+    }
+   
+    #about .s1 .txtBox{
+        bottom: 72px;
+        left: 0;
+    }
+    #about .s1 .txtBox h2{
+        font-size: 72px;
+    }
+    #about .s1 .txtBox .subTit{
+        font-size: 22px;
+    }
+    #about .s1 .txtBox .description{
+        font-size: 18px;
+        line-height: 1.4;
+    } 
+
+    #about .contents .titLine h3{
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+
+
+
+
+}

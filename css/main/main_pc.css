@@ -1,0 +1,135 @@
+@media all and (min-width:1200px){
+
+
+
+    #wrap{
+        flex-direction: row;
+    }
+
+    figure{
+        flex: 6;
+    }
+
+    .mainSlide{
+        overflow: hidden;
+        height: 100vh;
+    }
+    .mainSlide .slide{
+        height:100vh;
+        position: absolute;
+        top:0;
+        left: 0;
+        display: none;
+        animation:bigger infinite 8s alternate;
+    }
+
+    @keyframes bigger{
+        0%{
+            scale: 1;
+        }
+        100%{
+            scale: 1.1;
+        }
+    }
+
+    .mainSlide .main1{
+        display: block;
+    }
+
+
+    figure .txtBox h1{
+        font-size: 4vw;
+        border:8px solid #fff;
+        padding: 1vw 2vw;
+        margin-top: -40px;
+    }
+
+    figure .txtBox .time{
+        font-size: 20px;
+    }
+    nav{
+        flex: 4;
+        justify-content: flex-end;
+        padding-left: 60px;
+    }
+
+    nav h1{
+        display: block;
+        position: absolute;
+        top:40px;
+        right: 20px;
+        opacity: 0.2;
+    }
+    .gnb li{
+        padding-bottom:24px;
+    }
+
+    .gnb li:hover .ko:after{
+        width:100%;
+    }
+
+    .gnb li:hover .en{
+        opacity: 1;
+    }
+
+    .gnb li .ko{
+        display: inline-block;
+    }
+
+    .gnb li .ko:after{
+        content:'';
+        width: 0;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        transition: all 1s;
+    }
+
+    .gnb li .en{
+        margin-top: 4px;
+        opacity: 0;
+        transition: all 1s;
+        font-size: 14px;
+
+    }
+
+
+    address{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    figure:after{
+        content:'';
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        bottom: 0;
+        left:0;
+        background-image: linear-gradient(transparent, #020f21db);
+    }
+    figcaption{
+        position: absolute;
+        bottom:40px;
+        left:40px;
+        text-align: left;
+        z-index: 99;
+        color: #fff;
+
+    }
+
+    figcaption h2{
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 1;
+        letter-spacing: -2px;
+    }
+
+    figcaption p{
+        padding-left: 10px;
+        line-height: 2;
+        margin-top: 12px;
+    }
+    
+
+}/*768*/
