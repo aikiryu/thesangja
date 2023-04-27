@@ -343,10 +343,12 @@
     #items .row1{
         display: flex;
         justify-content: space-between;
+        
     }
     #items .row1 .imgBox{
         width: 68%;
     }
+
     #items .row1 .txtBox{
         flex-direction: column;
         width: 28%;
@@ -358,18 +360,18 @@
     #items .row1 .txtBox .txt:nth-child(1){
         height: 38%
     }
-    #items .item1 .txtBox .txt p,
-    #items .item1 .txtBox .txt ul{
+    #items .item .txtBox .txt p,
+    #items .item .txtBox .txt ul{
     font-size: 16px;
     padding:15px;
     }
-    #items .item1 .txtBox .txt li{
+    #items .item .txtBox .txt li{
         margin-bottom: 5px;
     }
-    #items .item1 .txtBox .txt p br{
+    #items .item .txtBox .txt p br{
         display: none;
     }
-    #items .item1 .txtBox .txt h4{
+    #items .item .txtBox .txt h4{
         padding:10px 0;
     }
 

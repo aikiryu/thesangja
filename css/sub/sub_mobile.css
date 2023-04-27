@@ -885,11 +885,11 @@
 #items .item1{
     display: block;
 }
-#items .item1 .row1 figure{
+#items .item .row1 figure{
     display: flex;
     justify-content: space-between;
 }
-#items .item1 .row1 img{
+#items .item .row1 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -900,16 +900,44 @@
 #items .item1 .row1 img:nth-child(2){
     width: 55%;
 }
-#items .item1 .txtBox{
+#items .item2 .row1 img:nth-child(1){
+    width: 45%;
+}
+#items .item2 .row1 img:nth-child(2){
+    width: 45%;
+}
+#items .item3 .row1 img:nth-child(1){
+    width: 45%;
+}
+#items .item3 .row1 img:nth-child(2){
+    width: 45%;
+}
+
+#items .item4 .row1 figure{
+    flex-wrap: wrap;
+}
+#items .item4 .row1 img{
+    width: 45%;
+}
+#items .item4 .row1 img:nth-child(3){
+    margin-top: 12px;
+}
+#items .item5 .row1 img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#items .item .txtBox{
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
 }
-#items .item1 .txtBox .txt{
+#items .item .txtBox .txt{
     width: 48%;
     border:1px solid #eee;
 }
-#items .item1 .txtBox .txt h4{
+#items .item .txtBox .txt h4{
     font-size: 16px;
     text-align: center;
     background-color: #f4f4f4;
@@ -917,13 +945,13 @@
 }
 #items .item1 .txtBox .txt p{
 }
-#items .item1 .txtBox .txt p,
-#items .item1 .txtBox .txt ul{
+#items .item .txtBox .txt p,
+#items .item .txtBox .txt ul{
     font-size: 14px;
     padding:10px;
 
 }
-#items .item1 .txtBox .txt li{
+#items .item .txtBox .txt li{
     text-align: center;
 }
 
