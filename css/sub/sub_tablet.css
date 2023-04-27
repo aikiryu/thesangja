@@ -349,6 +349,8 @@
         width: 68%;
     }
 
+
+
     #items .row1 .txtBox{
         flex-direction: column;
         width: 28%;
@@ -373,6 +375,13 @@
     }
     #items .item .txtBox .txt h4{
         padding:10px 0;
+    }
+
+    #items .item7 .txtBox{
+        flex-wrap: nowrap;
+    }
+    #items .item7 .txtBox .txt:not(:first-child){
+        margin-top: 12px;
     }
 
     #items .row2{

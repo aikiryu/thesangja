@@ -928,6 +928,18 @@
     margin-right: auto;
 }
 
+#items .item6 .row1 img,
+#items .item7 .row1 img{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#items .item8 .row1 img{
+    width: 45%;
+}
+#items .item9 .row1 img{
+    width: 45%;
+}
 #items .item .txtBox{
     display: flex;
     justify-content: space-between;
@@ -955,6 +967,14 @@
     text-align: center;
 }
 
+#items .item7 .txtBox{
+    flex-wrap: wrap;
+}
+#items .item7 .txtBox .txt:last-child{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
 #items .row2 .tip{
     color: #444;
     text-align: center;
