@@ -820,6 +820,26 @@
 #guide .s4 figure img{
     width: 100%;
 }
+
+#guide .goToContact{
+    display: block;
+    width: 140px;
+    text-align: center;
+    margin-top: 24px;
+    line-height: 40px;
+    background-color: #37d3bd;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    user-select: none;
+}
+
+#guide .goToContact:hover{
+    background-color: #3eecd5;
+}
+#guide .goToContact:active{
+    background-color: #299ef8;
+}
 /* items */
 #items main{
     background-image: url(../../images/sub/location-main.jpg);
@@ -975,6 +995,22 @@
     margin-right: auto;
     margin-top: 12px;
 }
+
+#items .item9 .row2 .imgBox{
+    border-right: 0;
+    border-bottom: 0;
+}
+
+#items .item9 .row2 .imgItem:nth-child(2),
+#items .item9 .row2 .imgItem:nth-child(3),
+#items .item9 .row2 .imgItem:nth-child(4){
+    border-bottom: 1px solid #eee;
+}
+#items .item9 .row2 .imgItem:nth-child(3),
+#items .item9 .row2 .imgItem:nth-child(4){
+    border-right: 1px solid #eee;
+}
+
 #items .row2 .tip{
     color: #444;
     text-align: center;

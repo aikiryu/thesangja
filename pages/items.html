@@ -1386,12 +1386,12 @@
             let showing = $(this).html();
             let subs = $(this).siblings('.subImg').children();
             items = subs;
-            console.log(items)
             $('.view').fadeIn();
             
             $('.view figure').html(showing);
             $('.view .list').html(subs);
             $('body').css({'overflow-y':'hidden'});
+            
         });
 
         $('.closeWrap').click(function(){
